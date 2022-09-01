@@ -1,4 +1,4 @@
-# Breaking Bad
+# PriceChart
 
 PriceChart is an application for showing the prices chart using UIKit and snapkit frameworks.
 
