@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4204027828B832DC008E4DB4 /* PriceChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204027728B832DC008E4DB4 /* PriceChartView.swift */; };
+		4204027B28B833DF008E4DB4 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204027A28B833DF008E4DB4 /* UIColor.swift */; };
+		4204027D28B836C2008E4DB4 /* Dimens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204027C28B836C2008E4DB4 /* Dimens.swift */; };
+		4204027F28B836FF008E4DB4 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204027E28B836FF008E4DB4 /* Date.swift */; };
+		4204028128B83744008E4DB4 /* AlgorithmSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204028028B83744008E4DB4 /* AlgorithmSearch.swift */; };
 		420A476128B6AF17001C212A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A476028B6AF17001C212A /* AppDelegate.swift */; };
 		420A476328B6AF17001C212A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A476228B6AF17001C212A /* SceneDelegate.swift */; };
-		420A476528B6AF17001C212A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A476428B6AF17001C212A /* ViewController.swift */; };
-		420A476828B6AF17001C212A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420A476628B6AF17001C212A /* Main.storyboard */; };
+		420A476528B6AF17001C212A /* PriceChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A476428B6AF17001C212A /* PriceChartViewController.swift */; };
 		420A476A28B6AF18001C212A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420A476928B6AF18001C212A /* Assets.xcassets */; };
 		420A476D28B6AF18001C212A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420A476B28B6AF18001C212A /* LaunchScreen.storyboard */; };
 		420A477828B6AF18001C212A /* PriceChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A477728B6AF18001C212A /* PriceChartTests.swift */; };
 		420A478228B6AF18001C212A /* PriceChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A478128B6AF18001C212A /* PriceChartUITests.swift */; };
 		420A478428B6AF18001C212A /* PriceChartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A478328B6AF18001C212A /* PriceChartUITestsLaunchTests.swift */; };
+		42A2BE9C28C0024300F33901 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 42A2BE9B28C0024300F33901 /* SnapKit */; };
+		42CE782928C002E10004E6DE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 42CE782828C002E10004E6DE /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4204027728B832DC008E4DB4 /* PriceChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceChartView.swift; sourceTree = "<group>"; };
+		4204027A28B833DF008E4DB4 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		4204027C28B836C2008E4DB4 /* Dimens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimens.swift; sourceTree = "<group>"; };
+		4204027E28B836FF008E4DB4 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		4204028028B83744008E4DB4 /* AlgorithmSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmSearch.swift; sourceTree = "<group>"; };
 		420A475D28B6AF17001C212A /* PriceChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		420A476028B6AF17001C212A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		420A476228B6AF17001C212A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		420A476428B6AF17001C212A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		420A476728B6AF17001C212A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		420A476428B6AF17001C212A /* PriceChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceChartViewController.swift; sourceTree = "<group>"; };
 		420A476928B6AF18001C212A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		420A476C28B6AF18001C212A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		420A476E28B6AF18001C212A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CE782928C002E10004E6DE /* SnapKit in Frameworks */,
+				42A2BE9C28C0024300F33901 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4204027928B833C5008E4DB4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4204027A28B833DF008E4DB4 /* UIColor.swift */,
+				4204027C28B836C2008E4DB4 /* Dimens.swift */,
+				4204027E28B836FF008E4DB4 /* Date.swift */,
+				4204028028B83744008E4DB4 /* AlgorithmSearch.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		420A475428B6AF17001C212A = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +122,14 @@
 		420A475F28B6AF17001C212A /* PriceChart */ = {
 			isa = PBXGroup;
 			children = (
+				4204027928B833C5008E4DB4 /* Utility */,
 				420A476028B6AF17001C212A /* AppDelegate.swift */,
 				420A476228B6AF17001C212A /* SceneDelegate.swift */,
-				420A476428B6AF17001C212A /* ViewController.swift */,
-				420A476628B6AF17001C212A /* Main.storyboard */,
+				420A476428B6AF17001C212A /* PriceChartViewController.swift */,
 				420A476928B6AF18001C212A /* Assets.xcassets */,
 				420A476B28B6AF18001C212A /* LaunchScreen.storyboard */,
 				420A476E28B6AF18001C212A /* Info.plist */,
+				4204027728B832DC008E4DB4 /* PriceChartView.swift */,
 			);
 			path = PriceChart;
 			sourceTree = "<group>";
@@ -143,6 +167,10 @@
 			dependencies = (
 			);
 			name = PriceChart;
+			packageProductDependencies = (
+				42A2BE9B28C0024300F33901 /* SnapKit */,
+				42CE782828C002E10004E6DE /* SnapKit */,
+			);
 			productName = PriceChart;
 			productReference = 420A475D28B6AF17001C212A /* PriceChart.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +243,11 @@
 				Base,
 			);
 			mainGroup = 420A475428B6AF17001C212A;
+			packageReferences = (
+				42A2BE9928C0021B00F33901 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				42A2BE9A28C0024300F33901 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				42CE782728C002E10004E6DE /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 420A475E28B6AF17001C212A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +266,6 @@
 			files = (
 				420A476D28B6AF18001C212A /* LaunchScreen.storyboard in Resources */,
 				420A476A28B6AF18001C212A /* Assets.xcassets in Resources */,
-				420A476828B6AF17001C212A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420A476528B6AF17001C212A /* ViewController.swift in Sources */,
+				420A476528B6AF17001C212A /* PriceChartViewController.swift in Sources */,
 				420A476128B6AF17001C212A /* AppDelegate.swift in Sources */,
+				4204027F28B836FF008E4DB4 /* Date.swift in Sources */,
+				4204027828B832DC008E4DB4 /* PriceChartView.swift in Sources */,
+				4204027D28B836C2008E4DB4 /* Dimens.swift in Sources */,
+				4204028128B83744008E4DB4 /* AlgorithmSearch.swift in Sources */,
 				420A476328B6AF17001C212A /* SceneDelegate.swift in Sources */,
+				4204027B28B833DF008E4DB4 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +334,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		420A476628B6AF17001C212A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				420A476728B6AF17001C212A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		420A476B28B6AF18001C212A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +471,7 @@
 				INFOPLIST_FILE = PriceChart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +499,7 @@
 				INFOPLIST_FILE = PriceChart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +631,46 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42A2BE9928C0021B00F33901 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		42A2BE9A28C0024300F33901 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		42CE782728C002E10004E6DE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42A2BE9B28C0024300F33901 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42A2BE9A28C0024300F33901 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		42CE782828C002E10004E6DE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42A2BE9A28C0024300F33901 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 420A475528B6AF17001C212A /* Project object */;
 }
